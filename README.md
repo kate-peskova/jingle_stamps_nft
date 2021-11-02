@@ -1,9 +1,21 @@
-# Gift Basket NFT Collection
+# Gift Basket Collection
 
 ## Summary
 
-The Gift Basket NFT Collection is a collection of non fungible digital gift baskets. Each token has unique traits based on seasons and holidays.
+### Introduciton
 
-### Demo App
+The Gift Basket Collection is a NFT collection representing digital gift baskets. Each token has unique traits based on themes such as season and holiday. Each gift basket (GIFB) is an ERC721 token. When minted, traits are randomly generated using (placeholder)...
+
+### Functions
+
+#### createGiftBasket
+
+Mints a Gift Basket.
+
+#### newAppraisal
+
+Updates token value of a Gift Basket.
+
+## Demo App
 
 Click [here](frontend/index.html) to launch the Gift Basket NFT application.
