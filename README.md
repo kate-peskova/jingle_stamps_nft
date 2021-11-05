@@ -1,4 +1,4 @@
-# Gift Basket Collection
+# Jingle Stamp NFT
 
 ## Summary
 
