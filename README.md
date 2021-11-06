@@ -15,13 +15,13 @@ The program uses solidity code on its backend to mint the JING NFTs. On the fron
 ### Backend.
 Below you can find the link to the solidity code.
 
-•	[Solidity Contract code](contract/jingle_stamps_nft_contract.sol)
+* [Solidity Contract code](contract/jingle_stamps_nft_contract.sol)
 
 ### Frontend.
 Below you can find the links to the frontend code files.
 
-•	[HTML code](frontend/index.html)
-•	[JavaScript code](frontend/dapp.js)
+* [HTML code](frontend/index.html)
+* [JavaScript code](frontend/dapp.js)
 
 ### Demo app.
 To check out the Jingle stamp generator, run the following command in your terminal then follow the link below.
@@ -30,4 +30,4 @@ To check out the Jingle stamp generator, run the following command in your termi
 python -m http.server 8000
 ```
 
-•	[Jingle Stamp Generator]( http://localhost:8000/)
+* [Jingle Stamp Generator]( http://localhost:8000/)
