@@ -8,20 +8,23 @@ Crypto and blockchain adoption is growing significantly, leading to the populari
 
 The Jingle Stamp Collection is an NFT collection representing digital stamps with a Christmas theme. There are six types of stamps (Holiday Gifts, Cute Penguin, Santa Hat, HoHoHo, Stocking, Santa). Each stamp (JING) is an ERC721 token. You are invited to follow the demo link and generate your very own Jingle Stamp.
 
- ## Implementation
+ ### Implementation
 
 The program uses solidity code on its backend to mint the JING NFTs. On the frontend, the program operates through HTML, CSS, and Javascript. Once we enter the app through the user interface, we can click the button to randomly generate our Jingle Stamp. That interaction would connect us to MetaMask to confirm the transaction. Once confirmed and through, we can go on Etherscan to see our JING transaction hash.  
 
-### Backend. Below you can find the link to the solidity code.
+### Backend.
+Below you can find the link to the solidity code.
 
 •	[Solidity Contract code](contract/jingle_stamps_nft_contract.sol)
 
-### Frontend. Below you can find the links to the frontend code files.
+### Frontend.
+Below you can find the links to the frontend code files.
 
 •	[HTML code](frontend/index.html)
 •	[JavaScript code](frontend/dapp.js)
 
-### Demo app. To check out the Jingle stamp generator, run the following command in your terminal then follow the link below.
+### Demo app.
+To check out the Jingle stamp generator, run the following command in your terminal then follow the link below.
 
 ```
 python -m http.server 8000
