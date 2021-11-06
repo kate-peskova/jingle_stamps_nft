@@ -1,23 +1,29 @@
-# Jingle Stamp NFT
+# Jingle Stamp Collection
 
 ## Summary
 
 ### Introduciton
 
-The Gift Basket Collection is a NFT collection representing digital gift baskets. Each token has unique traits based on themes such as season and holiday. Each gift basket (GIFB) is an ERC721 token. When minted, traits are randomly generated using (placeholder)...
+Crypto and blockchain adoption is growing signifigantly, leading to the popularity of NFTs (Non-fungible tokens). The NFT market is developing due to the investment opportunity, untility, and sentimental value an NFT can offer. Our team is fascinated with the use cases of NFTs and decided to develop our own NFT collection based on Christams since it is an upcoming holiday. We wanted to incoroporate randomness when minting a new Jingle Stamp to add an element of chance for the type of stamp minted. 
+
+The Jingle Stamp Collection is an NFT collection representing digital stamps with a Christmas theme. There are six types of stamps (Gitf, Penguin, Santa Hat, HoHoHo, Stocking, Santa). Each stamp (JING) is an ERC721 token.
 
 ![OurNFTS](JING-images/jinglebasket.JPG)
 
 ### Functions
 
-#### createGiftBasket
+#### mintStamp
 
-Mints a Gift Basket. The gift basket contains a collection of christmas themed NFTs that are randomly generated. 
+Mints a Jingle Stamp.
 
-#### newAppraisal
+#### randomNumberGenerator
 
-Updates token value of a Gift Basket.
+Generates a random number ranging between one and six. This number will be called into the mintStamp function to select the stamp type.
 
-## Demo App
+## getStampType
+Reports the stamp type of a specific token ID.
+
+## getStampImage
+Reports the stamp image of a specific token ID.
 
 Click [here](frontend/index.html) to launch the Gift Basket NFT application.
