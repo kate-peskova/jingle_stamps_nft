@@ -38,5 +38,6 @@ contract ArtRegistry is ERC721Full {
         emit Appraisal(token_id, new_value, report_uri);
 
         return art_collection[token_id].appraisal_value;
+
   }
 }

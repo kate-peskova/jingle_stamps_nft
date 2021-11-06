@@ -10,7 +10,7 @@ The Gift Basket Collection is a NFT collection representing digital gift baskets
 
 #### createGiftBasket
 
-Mints a Gift Basket.
+Mints a Gift Basket. The gift basket contains a collection of christmas themed NFTs.
 
 #### newAppraisal
 
