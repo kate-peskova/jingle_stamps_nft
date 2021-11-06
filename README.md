@@ -1,4 +1,4 @@
-!jinglebasket.JPG](JING-images/jinglebasket.JPG)
+![jinglebasket.JPG](JING-images/jinglebasket.JPG)
 
 # Jingle Stamp Collection
 
