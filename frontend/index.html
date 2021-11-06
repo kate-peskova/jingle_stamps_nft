@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JingStamps</title>
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Compiled and minified Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha256-OweaP/Ic6rsV+lysfyS4h+LM6sRwuO3euTYfr6M124g=" crossorigin="anonymous" />
+  <!-- FontAwesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+</head>
+
+<body class="grey lighten-3">
+
+  <div class="container">
+
+    <h4>Jingle Stamps Gift Basket</h4>
+    <p>Welcome to the Jingle Stamps Gift Basket where you can grab your NFT Jingle Stamp.</p>
+
+    <hr />
+
+ 
+    <h5>Jingle Stamps</h5>
+    <img src="JingStamps/santa-s.png" alt="Santa"> 
+    <img src="JingStamps/hohoho-s.png" alt="HoHoHo">
+    <img src="JingStamps/gifts-s.png" alt="Gifts">
+    <img src="JingStamps/santa-hat1.png" alt="Santa Hat">
+    <img src="JingStamps/stocking.png" alt="Stocking">
+    <img src="JingStamps/penguin-s.png" alt="Penguin">
+    <ul id="dapp-jinglestamps" class="collapsible"></ul>
+
+
+    <div class="col s12 m6">
+      <div class="card cyan darken-4">
+        
+        <div class="card-action">
+          <a id="dapp-jinglestamp" href="#" onclick="dApp.mintStamp()">Generate Jingle Stamp</a>
+        </div>
+      </div>
+    </div>
+
+
+   
+  </div>
+
+  <!-- JQuery 3.4.1 slim minified -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript for Materialize CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+  <!-- Web3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.2.5-rc.0/dist/web3.min.js" integrity="sha256-ZjUHyLZZWkQPbWfRjTSmGtfcTSOermVT6f/CvJW2RY4=" crossorigin="anonymous"></script>
+  <!-- Materialize Init -->
+  <script>
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
+  </script>
+  <!-- dApp JavaScript -->
+  <script src="dapp.js"></script>
+
+</body>
+</html>
