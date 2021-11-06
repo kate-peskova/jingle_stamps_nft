@@ -10,6 +10,10 @@ The Jingle Stamp Collection is an NFT collection representing digital stamps wit
 
 ![OurNFTS](JING-images/jinglebasket.JPG)
 
+##Backend
+
+Backend Link: [jingle_stamps_contract.sol](contract/jingle_stamps_contract.sol)
+
 ### Functions
 
 #### mintStamp
@@ -24,6 +28,10 @@ Generates a random number ranging between one and six. This number will be calle
 Reports the stamp type of a specific token ID.
 
 ## getStampImage
-Reports the stamp image of a specific token ID.
+Reports the stamp image of a specific token ID.\
+
+##Frontend
+
+Frontend Link: [](frontend/)
 
 Click [here](frontend/index.html) to launch the Gift Basket NFT application.
