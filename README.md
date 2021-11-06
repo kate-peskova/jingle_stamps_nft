@@ -12,18 +12,18 @@ The Jingle Stamp Collection is an NFT collection representing digital stamps wit
 
 The program uses solidity code on its backend to mint the JING NFTs. On the frontend, the program operates through HTML, CSS, and Javascript. Once we enter the app through the user interface, we can click the button to randomly generate our Jingle Stamp. That interaction would connect us to MetaMask to confirm the transaction. Once confirmed and through, we can go on Etherscan to see our JING transaction hash.  
 
-### Backend.
+### Backend
 Below you can find the link to the solidity code.
 
 * [Solidity Contract code](contract/jingle_stamps_nft_contract.sol)
 
-### Frontend.
+### Frontend
 Below you can find the links to the frontend code files.
 
 * [HTML code](frontend/index.html)
 * [JavaScript code](frontend/dapp.js)
 
-### Demo app.
+### Demo app
 To check out the Jingle stamp generator, run the following command in your terminal then follow the link below.
 
 ```
