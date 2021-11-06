@@ -1,4 +1,4 @@
-![jinglebasketbanner.JPG](JING-images/jinglebasketbanner.JPG)
+![jinglestampbanner.JPG](JING-images/jingstampbanner.JPG)
 
 # Jingle Stamp NFT Collection
 
