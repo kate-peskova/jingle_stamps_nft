@@ -12,7 +12,7 @@ The Jingle Stamp Collection is an NFT collection representing digital stamps wit
 
 ##Backend
 
-Backend Link: [jingle_stamps_contract.sol](contract/jingle_stamps_contract.sol)
+Backend Link: [jingle_stamps_contract.sol](contract/jingle_stamps_nft_contract.sol)
 
 ### Functions
 
