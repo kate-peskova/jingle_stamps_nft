@@ -2,6 +2,13 @@
 
 # Jingle Stamp NFT Collection
 
+### Project Team
+
+* Nicholas DePalma
+* Kate Peskova
+* Sujit Subhash
+* Abrar Aman
+
 ## Summary
 
 Crypto and blockchain adoption is growing significantly, leading to the popularity of NFTs (non-fungible tokens). The NFT market is developing due to the investment opportunity, utility, and sentimental value an NFT can offer. Our team is fascinated with the use cases of NFTs and decided to develop our own NFT collection based on Christmas while anticipating an upcoming holiday season. We wanted to incorporate randomness when minting a new Jingle Stamp to add an element of chance for the type of stamp minted. 
